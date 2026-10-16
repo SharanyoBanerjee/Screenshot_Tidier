@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline';">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Screenshot Tidier</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div id="app">
+    <header class="top-bar">
+      <div class="top-bar-title">Screenshot Tidier</div>
+    </header>
+    <main class="content">
+      <div class="settings-card">
+        <div class="settings-row">
+          <span class="settings-label">Watch Directory</span>
+          <span id="watch-dir" class="settings-value">Loading...</span>
+        </div>
+        <div class="settings-row">
+          <span class="settings-label">Destination Directory</span>
+          <span id="dest-dir" class="settings-value">Loading...</span>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="../../dist/renderer/renderer.js"></script>
+</body>
+</html>
