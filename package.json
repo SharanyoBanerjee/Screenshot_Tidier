@@ -1,0 +1,17 @@
+{
+  "name": "screenshot-tidier",
+  "version": "0.1.0",
+  "description": "Mac-only screenshot tidier app",
+  "main": "dist/main/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && electron ."
+  },
+  "dependencies": {
+    "electron": "^33.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "typescript": "^5.7.2"
+  }
+}
